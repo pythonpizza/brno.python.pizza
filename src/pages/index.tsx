@@ -46,7 +46,7 @@ const Home = () => (
     <Header />
     <Hero />
     <About />
-    <SpeakersSection />
+    {/*<SpeakersSection />*/}
     <Schedule />
     <OrganizerSection />
     <Sponsors />
