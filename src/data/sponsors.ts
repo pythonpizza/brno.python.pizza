@@ -1,0 +1,23 @@
+export type Sponsor = {
+    name: string;
+    image: string;
+    link: string;
+};
+
+export const SPONSORS = [
+    {
+        name: "EuroPython Society",
+        image: "/sponsors/eps-text.png",
+        link: "https://www.europython-society.org",
+    },
+    {
+        name: "Ataccama",
+        image: "/sponsors/ataccama.svg",
+        link: "https://www.ataccama.com/",
+    },
+    {
+        name: "Python Software Foundation",
+        image: "/sponsors/psf.png",
+        link: "https://www.python.org/psf-landing/",
+    },
+]
