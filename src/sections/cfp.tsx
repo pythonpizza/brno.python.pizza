@@ -1,5 +1,6 @@
-import { Container, Heading, Paragraph, Box } from "theme-ui";
-import {ContentButton} from "~/components/header";
+import { Box, Container, Heading, Paragraph } from "theme-ui";
+
+import { ContentButton } from "~/components/header";
 
 export const CFP = () => (
   <Container id="cfp" variant="smallContainer">
@@ -14,8 +15,8 @@ export const CFP = () => (
       party 🎊.
     </Paragraph>
     <Paragraph sx={{ p: "2rem" }}>
-      If you're not sure which topic you would like to talk about – you can send
-      multiple proposals :)
+      If you&apos;re not sure which topic you would like to talk about – you can
+      send multiple proposals :)
     </Paragraph>
     <Paragraph sx={{ p: "2rem" }}>
       We are looking for first-time speakers! It is a good opportunity to get

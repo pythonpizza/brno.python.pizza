@@ -5,12 +5,11 @@ import { Footer } from "~/components/footer";
 import { Header } from "~/components/header";
 import { genericInformation } from "~/data/generic";
 import { About } from "~/sections/about";
+import { CFP } from "~/sections/cfp";
 import { Coc } from "~/sections/coc";
 import { Hero } from "~/sections/hero";
 import { OrganizerSection } from "~/sections/organizers";
 import { Schedule } from "~/sections/schedule";
-import { SpeakersSection } from "~/sections/speakers";
-import { CFP } from "~/sections/cfp";
 import { Sponsors } from "~/sections/sponsors";
 import { Venue } from "~/sections/venue";
 

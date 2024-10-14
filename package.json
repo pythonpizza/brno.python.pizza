@@ -19,6 +19,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "lint-fix": "prettier ./src --write && eslint ./src --fix",
     "build": "next build && next export",
     "start": "next start"
   },

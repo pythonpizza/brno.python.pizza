@@ -1,4 +1,4 @@
-import { Container, Heading, Paragraph } from "theme-ui";
+import { Container, Heading } from "theme-ui";
 
 import { ScheduleCard } from "~/components/schedule-card";
 import { SCHEDULE } from "~/data/schedule";

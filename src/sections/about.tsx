@@ -6,8 +6,8 @@ export const About = () => (
     <Paragraph>
       <b>Python Pizza</b>, an annual micro conference originating from Naples in
       2017, has made its mark in various cities in Germany, Italy, Cuba, as well
-      as in remote formats. Now, after Prague, it's Brno's turn for Python Pizza
-      to happen in Czechia.
+      as in remote formats. Now, after Prague, it&apos;s Brno&apos;s turn for
+      Python Pizza to happen in Czechia.
     </Paragraph>
     <br />
     <Paragraph>

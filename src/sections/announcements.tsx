@@ -6,7 +6,7 @@ export const Announcements = () => (
   <Container id="announcements" variant="smallContainer">
     <Heading>Sign up for important announcements</Heading>
     <Paragraph>
-      If you're interested in receiving notifcations about our schedule or
+      If you&apos;re interested in receiving notifications about our schedule or
       ticket sales, please fill in the linked form. You will receive only four
       emails from us:
     </Paragraph>
@@ -15,7 +15,7 @@ export const Announcements = () => (
       <li>Notification when the ticket sales starts.</li>
       <li>
         A reminder 24 hours prior to the Call for Proposals (CFP) closing, in
-        case you'd like to submit a last-minute proposal
+        case you&apos;d like to submit a last-minute proposal
       </li>
       <li>Announcement of the event schedule</li>
       <li>
