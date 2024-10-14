@@ -10,6 +10,7 @@ import { Hero } from "~/sections/hero";
 import { OrganizerSection } from "~/sections/organizers";
 import { Schedule } from "~/sections/schedule";
 import { SpeakersSection } from "~/sections/speakers";
+import { CFP } from "~/sections/cfp";
 import { Sponsors } from "~/sections/sponsors";
 import { Venue } from "~/sections/venue";
 
@@ -43,6 +44,7 @@ const Home = () => (
     <Schedule />
     <OrganizerSection />
     <Sponsors />
+    <CFP />
     <Venue />
     <Coc />
     <Footer />

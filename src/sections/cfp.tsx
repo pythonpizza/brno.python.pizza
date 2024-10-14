@@ -1,4 +1,5 @@
-import { Container, Heading } from "theme-ui";
+import { Container, Heading, Paragraph, Box } from "theme-ui";
+import {ContentButton} from "~/components/header";
 
 export const CFP = () => (
   <Container id="cfp" variant="smallContainer">
