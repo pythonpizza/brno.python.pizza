@@ -67,7 +67,7 @@ export const Hero = () => (
       <HeroHeading m={0} as="h2">
         {format(
           new Date(genericInformation.whenDatetime),
-          genericInformation.whenFormat
+          genericInformation.whenFormat,
         )}
       </HeroHeading>
     </Box>

@@ -4,15 +4,23 @@ export const About = () => (
   <Container id="about" variant="smallContainer">
     <Heading>Python Pizza is Coming to Brno!</Heading>
     <Paragraph>
-      <b>Python Pizza</b>, an annual micro conference originating from Naples in 2017, has made its mark in various cities in Germany, Italy, Cuba, as well as in remote formats. Now, after Prague, it's Brno's turn for Python Pizza to happen in Czechia.
+      <b>Python Pizza</b>, an annual micro conference originating from Naples in
+      2017, has made its mark in various cities in Germany, Italy, Cuba, as well
+      as in remote formats. Now, after Prague, it's Brno's turn for Python Pizza
+      to happen in Czechia.
     </Paragraph>
     <br />
-    <Paragraph> Organized entirely by volunteers, we bring the Python Community together for some amazing original Pizza™ and Python Talks.
+    <Paragraph>
+      {" "}
+      Organized entirely by volunteers, we bring the Python Community together
+      for some amazing original Pizza™ and Python Talks.
       <br />
     </Paragraph>
     <br />
     <Paragraph>
-      We believe in and encourage practical sessions, in which developers share their experiences and lessons learned from real-world projects. Each talk is 10 minutes long.
+      We believe in and encourage practical sessions, in which developers share
+      their experiences and lessons learned from real-world projects. Each talk
+      is 10 minutes long.
     </Paragraph>
     <br />
     {/* <Paragraph> */}
@@ -22,7 +30,7 @@ export const About = () => (
     <br />
     <Paragraph>
       Check out the past editions:{" "}
-      < a
+      <a
         href="https://prague.python.pizza"
         target="_blank"
         rel="noopener noreferrer"
@@ -33,8 +41,8 @@ export const About = () => (
       <a href="https://python.pizza" target="_blank" rel="noopener noreferrer">
         Naples Python Pizza
       </a>
-      , {" "}
-      < a
+      ,{" "}
+      <a
         href="https://berlin.python.pizza"
         target="_blank"
         rel="noopener noreferrer"
@@ -67,5 +75,5 @@ export const About = () => (
       </a>
       .{" "}
     </Paragraph>
-  </Container >
+  </Container>
 );

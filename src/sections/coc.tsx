@@ -21,9 +21,9 @@ export const Coc = () => (
     </Heading>
     <CocHeading as="h2">Purpose</CocHeading>
     <Paragraph>
-      Brno Python Pizza is dedicated to providing a harassment-free
-      conference experience for everyone, regardless of gender, gender identity
-      and expression, sexual orientation, disability, physical appearance, body
+      Brno Python Pizza is dedicated to providing a harassment-free conference
+      experience for everyone, regardless of gender, gender identity and
+      expression, sexual orientation, disability, physical appearance, body
       size, race, age, religion or lack thereof.{" "}
     </Paragraph>
     <Paragraph>
@@ -146,8 +146,8 @@ export const Coc = () => (
     <CocHeading as="h2">Reporting steps</CocHeading>
     <Paragraph>
       The Brno Python Pizza Team is here to help attendees feel safe for the
-      duration of Brno Python Pizza event. We value your participation. If
-      you need to report an incident please reach out to the Team via{" "}
+      duration of Brno Python Pizza event. We value your participation. If you
+      need to report an incident please reach out to the Team via{" "}
       <a
         rel="noopener noreferrer"
         target="_blank"

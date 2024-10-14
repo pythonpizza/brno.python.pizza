@@ -20,7 +20,7 @@ const MenuLink: React.FC<{ href: string }> = ({ href, children }) => {
         behavior: "smooth",
       });
     },
-    [href]
+    [href],
   );
 
   return (
@@ -77,7 +77,10 @@ const MenuButton: React.FC<{ href: string }> = ({ children, href }) => (
   </Box>
 );
 
-export const ContentButton: React.FC<{ href: string }> = ({ children, href }) => (
+export const ContentButton: React.FC<{ href: string }> = ({
+  children,
+  href,
+}) => (
   <Box
     sx={{
       perspective: "24rem",
@@ -148,7 +151,9 @@ export const Header = () => (
         <MenuLink href="#venue">Venue 🏰</MenuLink>
         <MenuLink href="#sponsors">Sponsors 💛</MenuLink>
         <MenuLink href="#coc">CoC 💂</MenuLink>
-        <MenuButton href="https://pretix.eu/pyconcz/prague.pizza/">Tickets 🎫</MenuButton>
+        <MenuButton href="https://pretix.eu/pyconcz/prague.pizza/">
+          Tickets 🎫
+        </MenuButton>
       </Flex>
     </Container>
   </Box>
