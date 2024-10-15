@@ -39,11 +39,7 @@ jobs:
       #     node-version: "20"
       #     cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Set Environment Variables
-        env:
-          BASE_PATH: /brno.python.pizza
-        run: |
-          echo "" > .env.local
-          echo BASE_PATH=$BASE_PATH >> .env.local
+        run: echo "BASE_PATH=/brno.python.pizza" >> $GITHUB_ENV
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
