@@ -4,13 +4,13 @@ import { Container, Grid, Heading, Paragraph } from "theme-ui";
 import Organizer from "./organizer";
 
 const orgData = [
-  { name: "Anežka Müller", image: "/speakers/pizza-square.png", index: 1 },
+  { name: "Anežka Müller", image: "speakers/pizza-square.png", index: 1 },
   {
     name: "Moisés Guimarães de Medeiros",
-    image: "/speakers/moises.jpg",
+    image: "speakers/moises.jpg",
     index: 2,
   },
-  { name: "Jake Baláš", image: "/speakers/pizza-square.png", index: 3 },
+  { name: "Jake Baláš", image: "speakers/pizza-square.png", index: 3 },
 ];
 
 export const OrganizerSection = () => {

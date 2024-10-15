@@ -24,21 +24,21 @@ export const Venue = () => (
     {/*<br></br>*/}
     <Paragraph>Photos of the venue</Paragraph>
     <Image
-      src={"/venue/clubco1.jpg"}
+      src={"venue/clubco1.jpg"}
       alt="venue image"
       width="100%"
       height="auto"
       objectFit="contain"
     />
     <Image
-      src={"/venue/clubco2.jpg"}
+      src={"venue/clubco2.jpg"}
       alt="venue image"
       width="100%"
       height="auto"
       objectFit="contain"
     />
     <Image
-      src={"/venue/clubco3.jpg"}
+      src={"venue/clubco3.jpg"}
       alt="venue image"
       width="100%"
       height="auto"
