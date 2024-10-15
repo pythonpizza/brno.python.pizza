@@ -1,9 +1,11 @@
-import { MouseEvent, useCallback } from "react";
+import { type MouseEvent, useCallback } from "react";
 import { Box, Container, Flex, NavLink } from "theme-ui";
 
 import { Logo } from "./logo";
 
-const MenuLink: React.FC<{ href: string }> = ({ href, children }) => {
+type LinkComponent = React.FC<{ href: string; children: React.ReactNode }>;
+
+const MenuLink: LinkComponent = ({ href, children }) => {
   const goToSection = useCallback(
     (e: MouseEvent) => {
       e.preventDefault();
@@ -26,7 +28,8 @@ const MenuLink: React.FC<{ href: string }> = ({ href, children }) => {
   return (
     <NavLink
       sx={{
-        background: `linear-gradient(0deg, #fff .2rem,transparent 0) no-repeat 50%`,
+        background:
+          "linear-gradient(0deg, #fff .2rem,transparent 0) no-repeat 50%",
         transition: "background-size .3s cubic-bezier(.165,.84,.44,1)",
         backgroundSize: "0 100%",
         p: ".4rem",
@@ -44,7 +47,7 @@ const MenuLink: React.FC<{ href: string }> = ({ href, children }) => {
   );
 };
 
-const MenuButton: React.FC<{ href: string }> = ({ children, href }) => (
+const MenuButton: LinkComponent = ({ children, href }) => (
   <Box
     sx={{
       perspective: "24rem",
@@ -77,10 +80,7 @@ const MenuButton: React.FC<{ href: string }> = ({ children, href }) => (
   </Box>
 );
 
-export const ContentButton: React.FC<{ href: string }> = ({
-  children,
-  href,
-}) => (
+export const ContentButton: LinkComponent = ({ children, href }) => (
   <Box
     sx={{
       perspective: "24rem",

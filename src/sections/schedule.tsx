@@ -10,7 +10,7 @@ export const Schedule = () => (
     {SCHEDULE.map((schedule, index) => (
       <ScheduleCard
         variant={schedule.label ? "info" : "talk"}
-        key={index}
+        key={schedule.when}
         schedule={schedule}
         invert={!(index % 2)}
       />

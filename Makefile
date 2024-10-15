@@ -1,5 +1,5 @@
 install:
-	bun
+	bun install
 
 build:
 	bun build

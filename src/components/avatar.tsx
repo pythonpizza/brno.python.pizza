@@ -1,14 +1,12 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { Box, jsx } from "theme-ui";
-
+import { Box, type BoxProps } from "theme-ui";
 import { Image } from "~/components/image";
+import type { FC } from "react";
 
-type Props = {
+type Props = Omit<BoxProps, "src"> & {
   src: string;
 };
 
-export const Avatar: React.FC<Props> = ({ src, ...props }) => (
+export const Avatar: FC<Props> = ({ src, ...props }) => (
   <Box
     sx={{
       width: ["8rem", "14.4rem"],

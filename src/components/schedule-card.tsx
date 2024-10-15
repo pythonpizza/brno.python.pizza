@@ -1,9 +1,9 @@
 /** @jsxRuntime classic */
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { format } from "date-fns";
 import { Box, Card, Heading, jsx, Link, Text } from "theme-ui";
 
-import { Event } from "~/data/schedule";
+import type { Event } from "~/data/schedule";
 
 import { Avatar } from "./avatar";
 import { ExternalLinkIcon } from "./external-link-icon";

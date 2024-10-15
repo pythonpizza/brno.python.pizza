@@ -1,6 +1,3 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-
 import { Container, Heading, Paragraph } from "theme-ui";
 import { jsx } from "theme-ui";
 
@@ -112,7 +109,7 @@ export const Coc = () => (
       including a temporary ban or permanent expulsion from the community
       without warning (and without refund in the case of a paid event).
     </Paragraph>
-    <br></br>
+    <br />
     <CocHeading as="h2">
       If You Witness or Are Subject to Unacceptable Behavior
     </CocHeading>

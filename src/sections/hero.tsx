@@ -1,5 +1,5 @@
 import { format } from "date-fns";
-import { Box, Flex, Heading, HeadingProps } from "theme-ui";
+import { Box, Flex, Heading, type HeadingProps } from "theme-ui";
 
 import { Wave } from "~/components/wave";
 import { genericInformation } from "~/data/generic";

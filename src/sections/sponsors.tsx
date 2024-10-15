@@ -1,9 +1,7 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
 import { Container, Grid, Heading, jsx } from "theme-ui";
 
 import { Image } from "~/components/image";
-import { Sponsor, SPONSORS } from "~/data/sponsors";
+import { type Sponsor, SPONSORS } from "~/data/sponsors";
 
 type SponsorProps = {
   sponsor: Sponsor;
@@ -30,8 +28,8 @@ export const Sponsors = () => (
   <Container id="sponsors">
     <Heading mb="primary">Sponsors</Heading>
     <Grid columns={[1, 2, 2, 3]} gap="primary">
-      {SPONSORS.map((sponsor, index) => (
-        <SponsorItem key={index} sponsor={sponsor} />
+      {SPONSORS.map((sponsor) => (
+        <SponsorItem key={sponsor.name} sponsor={sponsor} />
       ))}
     </Grid>
   </Container>

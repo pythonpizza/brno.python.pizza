@@ -1,10 +1,6 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-
-import { Box, Container, jsx } from "theme-ui";
-
+/** @jsxImportSource theme-ui */
+import { Box, Container, Link } from "theme-ui";
 import { Image } from "~/components/image";
-
 import { Wave } from "./wave";
 
 const SOCIALS = [
@@ -44,7 +40,8 @@ export const Footer = () => (
     <Wave invert />
     <Container>
       {SOCIALS.map((social) => (
-        <a
+        <Link
+          as="a"
           sx={{ mx: "secondary" }}
           target="_blank"
           rel="noopener noreferrer"
@@ -57,7 +54,7 @@ export const Footer = () => (
             src={social.icon}
             alt={social.name}
           />
-        </a>
+        </Link>
       ))}
     </Container>
   </Box>

@@ -7,7 +7,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": false,
+      "recommended": true,
       "complexity": {
         "noExtraBooleanCast": "error",
         "noMultipleSpacesInRegularExpressionLiterals": "error",
@@ -68,6 +68,7 @@
     "ignore": ["./node_modules/*", "./.next/*", "./out/*"]
   },
   "javascript": {
+    "jsxRuntime": "transparent",
     "formatter": { "quoteStyle": "double" },
     "globals": ["React"]
   },
