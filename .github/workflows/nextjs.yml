@@ -38,6 +38,9 @@ jobs:
       #   with:
       #     node-version: "20"
       #     cache: ${{ steps.detect-package-manager.outputs.manager }}
+      - name: Set Environment Variables
+        env:
+          BASE_PATH: /brno.python.pizza
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
