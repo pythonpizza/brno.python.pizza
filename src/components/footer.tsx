@@ -6,12 +6,12 @@ import { Wave } from "./wave";
 const SOCIALS = [
   {
     name: "linkedin",
-    icon: "/socials/linkedin.png",
+    icon: "socials/linkedin.png",
     link: "https://www.linkedin.com/company/98334563/",
   },
   {
     name: "mastodon",
-    icon: "/socials/mastodon.png",
+    icon: "socials/mastodon.png",
     link: "https://fosstodon.org/@pythonpizza/",
   },
   {
