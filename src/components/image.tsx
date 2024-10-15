@@ -32,7 +32,7 @@ export const Image: React.FC<Props> = ({
 
   return (
     <img
-      src={src}
+      src={`${src}`}
       alt={alt}
       sx={{ width: finalWidth, height: finalHeight, objectFit }}
       className={className}
