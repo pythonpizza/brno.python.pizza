@@ -66,7 +66,7 @@ jobs:
       - name: Build with Next.js
         env:
           BASE_PATH: /brno.python.pizza
-        run: bun run build
+        run: BASE_PATH=/brno.python.pizza bun run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
