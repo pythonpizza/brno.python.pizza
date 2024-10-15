@@ -27,7 +27,6 @@
     "@biomejs/biome": "1.9.3",
     "@types/node": "^20.8.9",
     "@types/react": "^18.2.32",
-    "@types/theme-ui": "^0.6.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.6.3"
   }
 }
