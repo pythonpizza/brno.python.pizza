@@ -32,7 +32,7 @@ export const Image: React.FC<Props> = ({
 
   return (
     <img
-      src={process.env.BASE_PATH}
+      src=${src}
       alt={alt}
       sx={{ width: finalWidth, height: finalHeight, objectFit }}
       className={className}
