@@ -7,14 +7,22 @@ export const Venue = () => (
     <Heading>Venue</Heading>
     <Paragraph>
       The event will take place in the lobby of{" "}
-      <a href="https://clubco.cz/brno/">Clubco</a> Brno office #TODO
+      <a href="https://clubco.cz/brno/">Clubco</a> Brno office.
     </Paragraph>
-    <br></br>
-    <Paragraph>TODO: how to get there.</Paragraph>
-    <br></br>
-    <Paragraph>If you encounter any issues, please call #TODO.</Paragraph>
-    <br></br>
-    <Paragraph>Photos of previous events at the venue</Paragraph>
+    <br />
+    <Paragraph>
+      If you're traveling by train, head towards Galerie Vaňkovka shopping
+      center. Stay on the street level, avoiding the stairs, and cross the road
+      to your left, placing the shopping center on the opposite side. Walk along
+      the road with the shopping center on your right. After passing several
+      buildings, you'll notice a small park-like area on your left. Enter this
+      area, and you'll find Clubco in one of the buildings further along on your
+      right.
+    </Paragraph>
+    <br />
+    {/*<Paragraph>If you encounter any issues, please call #TODO.</Paragraph>*/}
+    {/*<br></br>*/}
+    <Paragraph>Photos of the venue</Paragraph>
     <Image
       src={"/venue/clubco1.jpg"}
       alt="venue image"
@@ -23,16 +31,16 @@ export const Venue = () => (
       objectFit="contain"
     />
     <Image
-      src={"/venue/clubco1.jpg"}
+      src={"/venue/clubco2.jpg"}
       alt="venue image"
       width="100%"
       height="auto"
       objectFit="contain"
     />
     <Image
-      src={"/venue/clubco1.jpg"}
+      src={"/venue/clubco3.jpg"}
       alt="venue image"
-      width="50%"
+      width="100%"
       height="auto"
       objectFit="contain"
     />
