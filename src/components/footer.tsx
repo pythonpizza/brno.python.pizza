@@ -16,17 +16,17 @@ const SOCIALS = [
   },
   {
     name: "twitter",
-    icon: "/socials/twitter.png",
+    icon: "socials/twitter.png",
     link: "https://twitter.com/pythonpizzaconf/",
   },
   {
     name: "facebook",
-    icon: "/socials/facebook.png",
+    icon: "socials/facebook.png",
     link: "https://www.facebook.com/pythonpizza/",
   },
   {
     name: "instagram",
-    icon: "/socials/instagram.png",
+    icon: "socials/instagram.png",
     link: "https://www.instagram.com/python.pizza/",
   },
 ];
