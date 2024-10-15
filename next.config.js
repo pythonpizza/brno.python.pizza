@@ -2,6 +2,6 @@
 const nextConfig = {
   output: "export",
   assetPrefix: process.env.ASSET_PREFIX,
-  basePath: process.env.BASE_PATH,
+  basePath: "/brno.python.pizza",
 };
 module.exports = nextConfig;
