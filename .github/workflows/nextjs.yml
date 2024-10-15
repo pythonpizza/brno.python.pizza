@@ -25,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BASE_PATH: /brno.python.pizza
+  BASE_PATH: '/brno.python.pizza'
 
 jobs:
   # Build job
@@ -41,8 +41,8 @@ jobs:
       #   with:
       #     node-version: "20"
       #     cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Set Environment Variables
-        run: echo "BASE_PATH=/brno.python.pizza" >> $GITHUB_ENV
+#      - name: Set Environment Variables
+#        run: echo "BASE_PATH=/brno.python.pizza" >> $GITHUB_ENV
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
