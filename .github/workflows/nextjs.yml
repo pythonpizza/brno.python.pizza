@@ -80,7 +80,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - run: echo "$BASE_PATH this is the base path"
+      - name: What is Base Path
+        run: echo "$BASE_PATH this is the base path"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
