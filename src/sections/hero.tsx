@@ -31,7 +31,7 @@ export const Hero = () => (
       flexDirection: "column",
       alignItems: "center",
       justifyContent: "center",
-      background: "url(/background.jpg) center / cover",
+      background: `url(${process.env.BASE_PATH}/background.jpg) center / cover`,
       minHeight: "100vh",
       position: "relative",
       pt: ["42rem", "20rem", "14rem"],
