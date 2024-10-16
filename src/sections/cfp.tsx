@@ -6,7 +6,7 @@ export const CFP = () => (
   <Container id="cfp" variant="smallContainer">
     <Heading>Call For Proposals until 20th December</Heading>
     <Paragraph>
-      <a href="#TODO" target="_blank" rel="noopener noreferrer">
+      <a href="https://forms.gle/psoeEw5phXPGZBdVA" target="_blank" rel="noopener noreferrer">
         Share
       </a>{" "}
       with us your ideas! Each talk will be 10-minutes long. They can be given
