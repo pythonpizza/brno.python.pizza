@@ -154,7 +154,7 @@ export const Header = () => (
         <MenuLink href="#venue">Venue 🏰</MenuLink>
         <MenuLink href="#sponsors">Sponsors 💛</MenuLink>
         <MenuLink href="#coc">CoC 💂</MenuLink>
-        <MenuButton href="#TODO-pretix-link">Tickets 🎫</MenuButton>
+        {/*<MenuButton href="#TODO-pretix-link">Tickets 🎫</MenuButton>*/}
       </Flex>
     </Container>
   </Box>
