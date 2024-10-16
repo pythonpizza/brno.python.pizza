@@ -27,7 +27,7 @@ export const CFP = () => (
       inspire a new generation of 🐍 loving people!
     </Paragraph>
     <Box sx={{ m: "5rem" }}>
-      <ContentButton href="#TODO">
+      <ContentButton href="https://forms.gle/psoeEw5phXPGZBdVA">
         Click here to send your Proposal
       </ContentButton>
     </Box>{" "}
