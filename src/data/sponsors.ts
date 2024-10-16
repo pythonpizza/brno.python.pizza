@@ -6,9 +6,9 @@ export type Sponsor = {
 
 export const SPONSORS = [
   {
-    name: "EuroPython Society",
-    image: "sponsors/eps-text.png",
-    link: "https://www.europython-society.org",
+    name: "Barclays",
+    image: "sponsors/barclays.svg",
+    link: "https://www.barclays.co.uk/",
   },
   {
     name: "Ataccama",
@@ -16,8 +16,8 @@ export const SPONSORS = [
     link: "https://www.ataccama.com/",
   },
   {
-    name: "Python Software Foundation",
-    image: "sponsors/psf.png",
-    link: "https://www.python.org/psf-landing/",
+    name: "Red Hat",
+    image: "sponsors/redhat.svg",
+    link: "https://www.redhat.com/",
   },
 ];
