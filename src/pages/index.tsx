@@ -23,13 +23,10 @@ const Home = () => (
         content={genericInformation.socialDescription}
       />
       <meta name="twitter:site" content="@pythonpizzaconf" />
-      <meta property="og:image" content="/social-image.jpg" />
+      <meta property="og:image" content="social-image.jpg" />
       <meta name="twitter:image:alt" content="Conference logo" />
       <meta name="twitter:title" content="Brno Python Pizza Conference!!" />
-      <meta
-        name="twitter:image"
-        content="https://brno.python.pizza/social-image.jpg"
-      />
+      <meta name="twitter:image" content="social-image.jpg" />
       <meta
         name="twitter:description"
         content="Join the fun 🥳🎉🍕 on 22nd February 2025"
