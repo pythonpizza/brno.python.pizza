@@ -7,7 +7,7 @@ export type Organizer = {
 export const ORGANIZERS: Organizer[] = [
   {
     name: "Anežka Müller",
-    image: "speakers/pizza-square.png",
+    image: "speakers/anezka.jpg",
     index: 1
   },
   {
