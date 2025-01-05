@@ -146,7 +146,6 @@ export const Header = () => (
         as="nav"
       >
         <MenuLink href="#about">About 🍕</MenuLink>
-        <MenuLink href="#cfp">CFP 🙋🏻‍♀️</MenuLink>
 
         <MenuLink href="#schedule">Schedule 📅</MenuLink>
 
