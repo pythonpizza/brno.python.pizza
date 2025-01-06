@@ -5,7 +5,7 @@ import { SCHEDULE } from "~/data/schedule";
 
 export const Schedule = () => (
   <Container id="schedule" variant="smallContainer">
-    <Heading>Schedule</Heading>
+    <Heading>Program</Heading>
 
     <Paragraph>
       We would like to thank everyone who submitted their proposals! We are now compiling the final version of the event schedule.
