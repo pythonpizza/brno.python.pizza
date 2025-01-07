@@ -51,7 +51,7 @@ export const SCHEDULE: Event[] = [
   },
   {
     title: "Simplify your DevOps life with Python",
-    name: "Tetiana",
+    name: "Tetiana Kukhelna",
     when: "2025/02/22 11:00 AM UTC+1",
     photo: "speakers/tetiana_kukhelna.png",
   },
