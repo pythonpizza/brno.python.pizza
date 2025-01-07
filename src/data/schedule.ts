@@ -47,7 +47,7 @@ export const SCHEDULE: Event[] = [
     title: "Coding Paradigms Entity-Component-Systems in Python: Is it worth it?",
     name: "Lukáš Ševčík",
     when: "2025/02/22 10:50 AM UTC+1",
-    photo: "speakers/pizza-square.png",
+    photo: "speakers/lukas_sevcik.jpg",
   },
   {
     title: "Simplify your DevOps life with Python",
