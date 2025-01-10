@@ -44,7 +44,7 @@ export const SCHEDULE: Event[] = [
     photo: "speakers/sarka_jana_janderkova.png",
   },
   {
-    title: "Coding Paradigms Entity-Component-Systems in Python: Is it worth it?",
+    title: "Entity-Component-Systems in Python: Is it worth it?",
     name: "Lukáš Ševčík",
     when: "2025/02/22 10:50 AM UTC+1",
     photo: "speakers/lukas_sevcik.jpg",
@@ -56,7 +56,7 @@ export const SCHEDULE: Event[] = [
     photo: "speakers/tetiana_kukhelna.png",
   },
   {
-    title: "Scraping   Crawlee: A web scraping and browser automation library",
+    title: "Crawlee: A web scraping and browser automation library",
     name: "Vláďa Dušek",
     when: "2025/02/22 11:10 AM UTC+1",
     photo: "speakers/pizza-square.png",
