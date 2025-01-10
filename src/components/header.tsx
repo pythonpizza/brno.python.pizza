@@ -69,7 +69,7 @@ const MenuButton: LinkComponent = ({ children, href }) => (
         transition: `transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
           box-shadow 0.3s cubic-bezier(0.165, 0.84, 0.44, 1)`,
         "&:hover": {
-          transform: "translateZ(2.6rem) rotateX(-12deg) rotateY(-10deg)",
+          // transform: "translateZ(2.6rem) rotateX(-12deg) rotateY(-10deg)",
           boxShadow: "0.6rem 0.4rem 2.4rem -0.8rem rgba(25, 0, 0, 0.5)",
           color: "primary",
         },
