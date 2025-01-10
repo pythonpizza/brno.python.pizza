@@ -59,7 +59,7 @@ export const SCHEDULE: Event[] = [
     title: "Crawlee: A web scraping and browser automation library",
     name: "Vláďa Dušek",
     when: "2025/02/22 11:10 AM UTC+1",
-    photo: "speakers/pizza-square.png",
+    photo: "speakers/vlada_dusek.jpg",
   },
   {
     title: "The landscape of Python UI E2E automated testing",
@@ -101,7 +101,7 @@ export const SCHEDULE: Event[] = [
     title: "My log has something to tell you",
     name: "Honza Kral",
     when: "2025/02/22 12:20 AM UTC+1",
-    photo: "speakers/pizza-square.png",
+    photo: "speakers/honza_kral.jpg",
   },
   {
     title: "Documentation that is always right",
