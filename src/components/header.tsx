@@ -142,6 +142,7 @@ export const Header = () => (
         sx={{
           alignItems: "center",
           flexDirection: ["column", "row"],
+          zIndex: 5,
         }}
         as="nav"
       >
