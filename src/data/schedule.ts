@@ -128,7 +128,7 @@ export const SCHEDULE: Event[] = [
     photo: "speakers/yazan_ghunaim.jpg",
   },
   {
-    title: "The Most Bizarre Software Bugs in History",
+    title: "🐛",
     name: "Mia Bajić",
     when: "2025/02/22 13:10 AM UTC+1",
     photo: "speakers/mia_bajic.png",
