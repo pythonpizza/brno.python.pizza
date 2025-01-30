@@ -134,12 +134,6 @@ export const SCHEDULE: Event[] = [
     photo: "speakers/mia_bajic.png",
   },
   {
-    title: "Why Django is perfect for side projects",
-    name: "Andreas Haselsteiner",
-    when: "2025/02/22 13:20 AM UTC+1",
-    photo: "speakers/andreas_haselsteiner.jpg",
-  },
-  {
     title: "▃█▅ Terminal plotting",
     name: "Jan Pipek",
     when: "2025/02/22 13:30 AM UTC+1",
