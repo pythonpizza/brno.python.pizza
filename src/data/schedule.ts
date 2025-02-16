@@ -62,12 +62,6 @@ export const SCHEDULE: Event[] = [
     photo: "speakers/vlada_dusek.jpg",
   },
   {
-    title: "The landscape of Python UI E2E automated testing",
-    name: "Dawid Pacia",
-    when: "2025/02/22 11:20 AM UTC+1",
-    photo: "speakers/pizza-square.png",
-  },
-  {
     title: "Counting Sheep, Pythonized",
     name: "Miroslav Šedivý",
     when: "2025/02/22 11:30 AM UTC+1",
@@ -113,7 +107,7 @@ export const SCHEDULE: Event[] = [
     title: "Bridging the Gap: IT Managers and IT Communities in Hiring",
     name: "Barbora Holusova",
     when: "2025/02/22 12:40 AM UTC+1",
-    photo: "speakers/pizza-square.png",
+    photo: "speakers/bara_holusova.jpg",
   },
   {
     title: "Building Web Framework in 2024: HTML Components with Pure Python and Typing",
