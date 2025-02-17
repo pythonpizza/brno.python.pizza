@@ -136,7 +136,7 @@ export const ScheduleCard: React.FC<Props> = ({
         }}
       >
 
-        {variant === "info" && format(new Date(schedule.when), "HH:mm")}
+        {format(new Date(schedule.when), "HH:mm")}
       </Text>
     )}
   </Box>
