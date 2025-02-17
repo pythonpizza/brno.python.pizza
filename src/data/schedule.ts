@@ -9,8 +9,8 @@ export type Event = {
 
 export const SCHEDULE: Event[] = [
   {
-    label: "Doors Open",
-    title: "Open Doors",
+    label: "Doors Open / Registration",
+    title: "Registration",
     when: "2025/02/22 9:30 AM UTC+1",
   },
   {
