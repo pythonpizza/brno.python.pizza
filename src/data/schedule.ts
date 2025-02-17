@@ -14,6 +14,11 @@ export const SCHEDULE: Event[] = [
     when: "2025/02/22 9:30 AM UTC+1",
   },
   {
+    label: "Opening Session",
+    title: "Opening Session",
+    when: "2025/02/22 10:00 AM UTC+1",
+  },
+  {
     title: "Random, but not really: How computers generate numbers for different purposes",
     name: "Lumír Balhar",
     when: "2025/02/22 10:12 AM UTC+1",
