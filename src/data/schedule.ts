@@ -75,7 +75,7 @@ export const SCHEDULE: Event[] = [
     title: "Kill GIL: How Python 3.13 Changes Concurrent Programming",
     name: "Darius Kryszczuk",
     when: "2025/02/22 12:12 PM UTC+1",
-    photo: "speakers/pizza-square.png"
+    photo: "speakers/darius_kryszczuk.jpg"
   },
   {
     label: "Lunch Break",
@@ -151,12 +151,6 @@ export const SCHEDULE: Event[] = [
     label: "Short Break",
     title: "Short Break",
     when: "2025/02/22 3:48 PM UTC+1"
-  },
-  {
-    title: "🐛",
-    name: "Mia Bajić",
-    when: "2025/02/22 4:00 PM UTC+1",
-    photo: "speakers/mia_bajic.png",
   },
   {
     title: "How to connect with complete strangers?",
