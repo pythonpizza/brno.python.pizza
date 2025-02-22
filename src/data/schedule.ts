@@ -118,12 +118,6 @@ export const SCHEDULE: Event[] = [
     when: "2025/02/22 2:24 PM UTC+1"
   },
   {
-    title: "My log has something to tell you",
-    name: "Honza Kral",
-    when: "2025/02/22 2:48 PM UTC+1",
-    photo: "speakers/honza_kral.jpg",
-  },
-  {
     title: "Documentation that is always right",
     name: "Robert Batůšek",
     when: "2025/02/22 3:00 PM UTC+1",
